@@ -1,0 +1,9 @@
+/* add media queries for responsiveness*/
+body {
+	background: url(../images/background2.jpg);
+}
+
+h1{
+	text-align: right;
+	color: white;
+}
