@@ -6,19 +6,20 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: white;
-	display: none;
-	text-align: right;
+}
+ 
+.container {
 }
 
 img {
-	padding: 20px;
-} 
+	padding: 10px;
+}
 
-.container {
-	align-content: center;
+.fighter, .nemesis, .challenger, .loser {
+	border-radius: 5px;
+	color: white;
+	padding: 5px 15px;
+	text-align: center;
 }
 
 
-.versus {
-	display: none;
-}
