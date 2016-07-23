@@ -1,10 +1,24 @@
 /* add media queries for responsiveness*/
+
+/*faded in everything within the body element */
 body {
-	background: url(../images/background2.jpg);
+	background: url(../images/background.jpg); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+	display: none;
+	text-align: right;
 }
 
-h1{
-	text-align: right;
-	color: white;
+img {
+	padding: 20px;
+} 
+
+.container {
+	align-content: center;
+}
+
+
+.versus {
 	display: none;
 }
