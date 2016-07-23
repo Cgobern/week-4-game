@@ -14,15 +14,31 @@
 </head>
 <body >
 <div class="container">
-		<h1>AVATAR:THE LAST AIRBENDER RPG!</h1>
+		<h1 id = mainHeader>AVATAR:THE LAST AIRBENDER RPG!</h1>
 	<div class= "characters" class="characters"></div>
 	<div id="nemesis" class="row">
 		<div id="action" class="col-sm-12"> <h1>Pick your character</h1></div>
 		<div id="fighters" class="fighters col-sm-12">
-			<img src="assets/images/aang.jpg" height="200px" width="200px">
-			<img src="assets/images/toph.jpg" height="200px" width="200px">
-			<img src="assets/images/Zuko.png" height="200px" width="200px">
-			<img src="assets/images/katara.jpg" height="200px" width="200px"> 
+			<div class="fighters col-sm-3" fighter-id = "0">
+				<span class="name">Anag</span>
+				<img src="assets/images/aang.jpg" height="200px" width="200px">
+			<span class="points">(120)</span>
+			</div>
+			<div class="fighters col-sm-3" fighter-id = "1">
+				<span class="name">Toph</span>
+				<img src="assets/images/toph.jpg" height="200px" width="200px">
+				<span class="points">(130)</span>
+			</div>
+			<div class="fighters col-sm-3" fighter-id= "2">
+				<span class="name">Zuko</span>
+				<img src="assets/images/Zuko.png" height="200px" width="200px">
+				<span class="points">(140)</span>
+			</div>
+			<div class="fighters col-sm-3" fighter-id= "3">
+				<span class="name">Katara</span>
+				<img src="assets/images/katara.jpg" height="200px" width="200px">
+				<span class="points">(150)</span>
+			</div> 
 		</div>
 	</div>	
 	<div id="game" class="row">
@@ -35,7 +51,7 @@
 		<div id="challenger"></div>
 	</div>
 	<div id="defeated" class="row">
-		<div id="defeated-header" class="col-sm-12">Challengers Defeated</div>
+		<div id="defeated-header" class="col-sm-12"><h1>Challengers Defeated<h1></div>
 		<div id="lost" class="col-sm-12"></div>
 	</div>			
 </div> <!--end of container -->

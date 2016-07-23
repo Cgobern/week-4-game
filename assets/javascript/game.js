@@ -17,7 +17,7 @@ $(document).ready(function () {
 	var roundOver = false;
 	var numberOfWins = 0;
 
-	function fighter(name, image, health, attack, counter) {
+	function fighter(name, health, attack, counter) {
 		this.name = name;
 		this.image = image;
 		this.health = health;
@@ -30,6 +30,9 @@ $(document).ready(function () {
 		$('#fighters').empty();
 		for (ctr = 0; ctr < fighters.length)
 	}
+	$(".fighter").on("click", function(){
+		selectFighter(this.getAttribute("driver-id"));
+	});
 
 
 
