@@ -1,6 +1,5 @@
 /* add media queries for responsiveness*/
 
-/*faded in everything within the body element */
 body {
 	background: url(../images/background.jpg); 
 	background-repeat: no-repeat;
